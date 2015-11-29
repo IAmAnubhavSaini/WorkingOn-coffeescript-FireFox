@@ -6,3 +6,7 @@ input[id="description"]{
 }
 .descSpan { padding: 1em; }
 .dateSpan { color: grey; font-size: .7em; }
+
+#App {
+  min-height: 400px;
+}
