@@ -7,11 +7,11 @@
   <title></title>
   <link href="src/app.css" type="text/css" rel="stylesheet" />
 </head>
-<body>
+<body onload="fetch()">
   <header></header>
   <section>
     <input id="description" name="description" placeholder="What are you working on?" />
-    <button>Enlist</button>
+    <button onclick="add()">Enlist</button>
     <hr />
     <ul id="list">
     </ul>
@@ -19,6 +19,10 @@
   </header></header>
   <div id="scripts">
     <script src="src/app.js"></script>
+    <script>
+      fetch = window.App().Fetch;
+      add = window.App().Add;
+    </script>
   </div>
 </body>
 </html>
