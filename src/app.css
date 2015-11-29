@@ -1,0 +1,8 @@
+input[id="description"], button {
+  padding: 1em;
+}
+input[id="description"]{
+  width: 45%;
+}
+.descSpan { padding: 1em; }
+.dateSpan { color: grey; font-size: .7em; }
